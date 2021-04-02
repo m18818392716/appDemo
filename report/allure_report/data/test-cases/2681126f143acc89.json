@@ -1,0 +1,71 @@
+{
+  "uid" : "2681126f143acc89",
+  "name" : "test2",
+  "fullName" : "cases.test02.Test#test2",
+  "historyId" : "88ab98f351d58eb733e57db34394d628",
+  "time" : {
+    "start" : 1616990334248,
+    "stop" : 1616990334249,
+    "duration" : 1
+  },
+  "status" : "failed",
+  "statusMessage" : "AssertionError: assert None == 'qeehfjejwjwjej11sss@22'",
+  "statusTrace" : "self = <cases.test02.Test object at 0x0000029DF29D0908>, get_token = None\n\n    def test2(self, get_token):\n        token = 'qeehfjejwjwjej11sss@22'\n        print(\"【执行test02.py-Test类-test2用例,获取get_token：%s】\" % get_token)\n>       assert get_token == token\nE       AssertionError: assert None == 'qeehfjejwjwjej11sss@22'\n\ncases\\test02.py:18: AssertionError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "get_token",
+    "time" : {
+      "start" : 1616990334247,
+      "stop" : 1616990334247,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "shouldDisplayMessage" : false,
+    "attachmentsCount" : 0,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "parentSuite",
+    "value" : "cases"
+  }, {
+    "name" : "suite",
+    "value" : "test02"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test"
+  }, {
+    "name" : "host",
+    "value" : "DESKTOP-MI5M7JM"
+  }, {
+    "name" : "thread",
+    "value" : "34000-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "cases.test02"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2681126f143acc89.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,19 @@
+{
+
+  "case1": {
+
+  "search_string": "testing",
+
+  "expect_string": "Testing"
+
+  },
+
+  "case2": {
+
+  "search_string": "hello_world.com",
+
+  "expect_string": "Testing"
+
+  }
+
+}

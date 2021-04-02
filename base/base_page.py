@@ -1,0 +1,13 @@
+from time import sleep
+from appium.webdriver.common.mobileby import By
+
+
+class BasePage:
+
+    def __init__(self, driver):
+        self.driver = driver
+
+    userName = By(, 'username')
+    passWord = By('id')
+
+

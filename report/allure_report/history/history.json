@@ -1,0 +1,22 @@
+{
+  "88ab98f351d58eb733e57db34394d628" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "9d6b590f6327685b",
+      "status" : "failed",
+      "statusDetails" : "AssertionError: assert None == 'qeehfjejwjwjej11sss@22'",
+      "time" : {
+        "start" : 1616990359627,
+        "stop" : 1616990359627,
+        "duration" : 0
+      }
+    } ]
+  }
+}
